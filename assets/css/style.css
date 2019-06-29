@@ -10,10 +10,24 @@ button, div, form, input {
     margin: 5px;
     color: var(--purple);
     
+    
 }
 
 #submitPress {
 
+    background: var(--purple);
+
+    color: white;
+    
+    border-style: outset;
+    
+    border-color: var(--purple) ;
+    
+    height: 2rem;
+    
+    width: 6rem;
+    
+    font: bold 15px arial, sans-serif;
 
 
 }
