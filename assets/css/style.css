@@ -1,1 +1,50 @@
+:root {
+    --purple: rgb(84, 7, 156);
+    --white: #FFFFFF;
+
+  }
+
+
+
+button, div, form, input {
+    margin: 5px;
+    color: var(--purple);
+    
+}
+
+#submitPress {
+
+
+
+}
+
+body {
+
+    background-size: cover;
+}
+
+
+img {
+
+	max-width: 200px;
+	max-height: 200px;
+}
+
+label {
+    color:var(--white);
+}
+
+.btn-default {
+    color: var(--purple);
+    font-size: medium;
+}
+
+
+.holder {
+    float: left;
+}
+
+.jumbotron {
+    text-align: center;
+}
 
