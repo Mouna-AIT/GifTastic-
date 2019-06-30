@@ -9,8 +9,6 @@
 button, div, form, input {
     margin: 5px;
     color: var(--purple);
-    
-    
 }
 
 #submitPress {
@@ -47,8 +45,7 @@ img {
     height: 300px;
     text-align: center;
     line-height: 300px;
-  
-  
+    
 }
 
 label {
@@ -59,7 +56,6 @@ label {
     color: var(--purple);
     font-size: medium;
 }
-
 
 .holder {
     float: left;
