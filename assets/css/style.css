@@ -1,55 +1,40 @@
 :root {
     --purple: rgb(84, 7, 156);
     --white: #FFFFFF;
+}
 
-  }
-
-
-
-button, div, form, input {
+button,
+div,
+form,
+input {
     margin: 5px;
     color: var(--purple);
 }
 
 #submitPress {
-
     background: var(--purple);
-
     color: white;
-    
     border-style: outset;
-    
-    border-color: var(--purple) ;
-    
+    border-color: var(--purple);
     height: 2rem;
-    
     width: 6rem;
-    
     font: bold 15px arial, sans-serif;
-
 }
 
 body {
-
     background-size: cover;
-
     background: url("../images/art-artistic-background-1831234.jpg");
-  
 }
 
-
-
 img {
-
-	width: 300px;
+    width: 300px;
     height: 300px;
     text-align: center;
     line-height: 300px;
-    
 }
 
 label {
-    color:var(--white);
+    color: var(--white);
 }
 
 .btn-default {
@@ -65,66 +50,59 @@ label {
     text-align: center;
 }
 
+
 /*940px*/
 
 @media (min-width: 940px) {
-
-    button, div, form, input {
-        
+    button,
+    div,
+    form,
+    input {
         font-size: 2rem;
-         
-     }
-     #submitPress {
-
+    }
+    #submitPress {
         font-size: 1rem;
     }
     img {
-
         font-size: 2rem;
-    line-height: 1.5rem;
+        line-height: 1.5rem;
     }
 }
+
 
 /*640px*/
 
 @media (min-width: 640px) {
-
-    button, div, form, input {
-        
-       font-size: 1.5rem;
-        
+    button,
+    div,
+    form,
+    input {
+        font-size: 1.5rem;
     }
-
     #submitPress {
-
         font-size: 1rem;
     }
-
     img {
-
-    font-size: 2rem;
-    line-height: 1.5rem;
+        font-size: 2rem;
+        line-height: 1.5rem;
     }
 }
+
 
 /*375px*/
 
 @media (max-width: 375px) {
-
-    button, div, form, input {
-    font-size: 2rem;
-    line-height: 1.5rem;
-     
- }
-  #submitPress {
-
+    button,
+    div,
+    form,
+    input {
+        font-size: 2rem;
+        line-height: 1.5rem;
+    }
+    #submitPress {
         font-size: 1rem;
     }
-
     img {
-
         font-size: 2rem;
-   
     }
-
 }
